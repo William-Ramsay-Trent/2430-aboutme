@@ -68,9 +68,10 @@ section p {
 
 /* Animations */
 section p{
-transition: color 1s;
+transition: color 1s, background-color 3s;
 }
 
 section p:hover{
 color: #ed00ba;
+background-color: #d6d1ff;
 }

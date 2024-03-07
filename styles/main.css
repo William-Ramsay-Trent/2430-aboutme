@@ -9,8 +9,8 @@
  */
 
 :root {
-    font-family: sans-serif;
     background-color: #F2EFEA;
+    font-family: sans-serif;
     color: black;
 }
 
@@ -21,21 +21,22 @@ body {
 }
 
 h1, h2, h3 {
-    text-align: center;
     line-height: normal;
+    text-align: center;
 }
 
 h1 {
     font-size: 4em;
     font-weight: 900;
-    text-shadow: 0.02em 0.04em #403D58;
     color: #FC7753;
+    text-shadow: 0.02em 0.04em #403D58;
 }
 
 h2 {
-    border-bottom: 0.1em solid #66D7D1;
-    padding: 0.25em;
     margin: 1.6em 0;
+    padding: 0.55em;
+    border-bottom: 0.1em solid #4da09c;
+    font-style: italic;
 }
 
 section p {
@@ -43,18 +44,28 @@ section p {
 }
 
 .project {
-    background-color: #403D58;
-    color: #F2EFEA;
-    padding: 0.5em 2em;
-    border-radius: 0.5em;
     margin-bottom: 1.5em;
+    padding: 0.5em 2em;
+    background-color: #403D58;
+    border-radius: 0.5em;
+    color: #F2EFEA;
 }
 
 .project h3 {
-    color: #DBD563;
     margin-top: 1rem;
-    margin-left: 2em;
     margin-right: 2em;
-    border-bottom: 0.1em solid #a6a57a;
+    margin-left: 2em;
     padding-bottom: 0.5em;
+    border-bottom: 0.1em solid #a6a57a;
+    color: #e8a6da;
+}
+
+
+/* Animations */
+section{
+transition: background-color 3s;
+}
+
+section:hover{
+background-color: #ed00ba;
 }
